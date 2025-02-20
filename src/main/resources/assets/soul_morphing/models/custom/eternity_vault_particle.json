@@ -1,0 +1,7 @@
+
+{
+  "parent": "soul_morphing:displaysettings/pylon",
+  "textures": {
+    "particle": "soul_morphing:block/eternity_vault"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "soul_morphing:item/infernal_knife"
+  },
+ 	"display": {
+		"thirdperson_righthand": {
+			"rotation": [17, -90, 55],
+			"translation": [-0.5, 2, 2],
+			"scale": [0.72, 0.72, 0.72]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [17, 90, -55],
+			"translation": [0.5, 3.25, 2],
+			"scale": [0.72, 0.72, 0.72]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -90, 25],
+			"translation": [1.13, 3.95, 0.88],
+			"scale": [0.92, 0.92, 0.92]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 90, -25],
+			"translation": [1.13, 3.75, 1.75],
+			"scale": [0.92, 0.92, 0.92]
+		},
+		"ground": {
+			"rotation": [-47, 90, 0],
+			"translation": [0, 2, 0]
+		}
+	}
+}

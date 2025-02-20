@@ -1,0 +1,56 @@
+{
+  "itemGroup.soul_morphing.soul_morphing_tools": "Soul Morphing Tools",
+  "itemGroup.soul_morphing.soul_morphing_blocks": "Soul Morphing Blocks",
+  "itemGroup.soul_morphing.soul_morphing_materials": "Soul Morphing Materials",
+  "enchantment.soul_morphing.soul_deformation": "Soul Deformation",
+  "enchantment.soul_morphing.soul_regeneration": "Soul Regeneration",
+
+  "block.soul_morphing.spiritium_ore": "Spiritium Ore",
+  "block.soul_morphing.spiritium_block": "Spiritium Block",
+  "item.soul_morphing.spiritium_ingot": "Spiritium Ingot",
+  "item.soul_morphing.raw_spiritium": "Raw Spiritium",
+  "item.soul_morphing.spiritium_nugget": "Spiritium Nugget",
+
+  "block.soul_morphing.ash_ore": "Ash Ore",
+  "block.soul_morphing.ash_block": "Ash Block",
+  "item.soul_morphing.ash_ingot": "Ash Ingot",
+  "item.soul_morphing.raw_ash": "Raw Ash",
+  "item.soul_morphing.ash_nugget": "Ash Nugget",
+
+  "item.soul_morphing.dusk_soul": "Dusk Soul",
+  "item.soul_morphing.sinister_core": "Sinister Core",
+  "item.soul_morphing.ender_shell": "Ender Shell",
+  "item.soul_morphing.ignited_soul": "Ignited Soul",
+  "item.soul_morphing.cursed_bone": "Cursed Bone",
+  "item.soul_morphing.vicious_skull": "Vicious Skull",
+  "item.soul_morphing.terror_star": "Terror Star",
+  "item.soul_morphing.eboba": "Eboba",
+
+  "item.soul_morphing.void_furnace": "Void Furnace",
+  "item.soul_morphing.eternity_vault": "Eternity Vault",
+
+  "item.soul_morphing.mist_amulet": "Mist Amulet",
+  "item.soul_morphing.scorching_wave": "Scorching Wave",
+  "item.soul_morphing.caged_soul": "Caged Soul",
+  "item.soul_morphing.sinners_staff": "Sinner's Staff",
+  "item.soul_morphing.soul_morphist": "Soul Morphist",
+  "item.soul_morphing.withering_sword": "Withering Sword",
+  "item.soul_morphing.spiritium_multitool": "Spiritium Multitool",
+  "item.soul_morphing.spiritium_pickaxe": "Spiritium Pickaxe",
+  "item.soul_morphing.spiritium_axe": "Spiritium Axe",
+  "item.soul_morphing.spiritium_shovel": "Spiritium Shovel",
+  "item.soul_morphing.spiritium_hoe": "Spiritium Hoe",
+
+  "item.soul_morphing.spiritium_helmet": "Spiritium Helmet",
+  "item.soul_morphing.spiritium_chestplate": "Spiritium Chestplate",
+  "item.soul_morphing.spiritium_leggings": "Spiritium Leggings",
+  "item.soul_morphing.spiritium_boots": "Spiritium Boots",
+
+  "block.soul_morphing.shattered_dungeon_brick": "Shattered Dungeon Brick",
+  "block.soul_morphing.dungeon_soul_lantern": "Dungeon Soul Lantern",
+  "block.soul_morphing.dungeon_leaves": "Dungeon Leaves",
+  "block.soul_morphing.dungeon_lamp": "Dungeon Lamp",
+  "block.soul_morphing.dungeon_brick2": "Dungeon Brick 2",
+  "block.soul_morphing.dungeon_brick": "Dungeon Brick",
+  "block.soul_morphing.dungeon_bottom": "Dungeon Bottom"
+}

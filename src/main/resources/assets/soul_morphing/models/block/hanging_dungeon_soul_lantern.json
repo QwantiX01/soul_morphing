@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_hanging_lantern",
+  "textures": {
+    "lantern": "soul_morphing:block/dungeon_soul_lantern"
+  }
+}

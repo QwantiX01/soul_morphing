@@ -1,0 +1,14 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "soul_morphing:item/mist_amulet"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "capable": 1
+      },
+      "model": "soul_morphing:item/mist_amulet_using"
+    }
+  ]
+}

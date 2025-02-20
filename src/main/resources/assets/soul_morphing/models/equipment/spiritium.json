@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "soul_morphing:spiritium"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "soul_morphing:spiritium"
+      }
+    ]
+  }
+}
