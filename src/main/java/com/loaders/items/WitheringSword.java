@@ -1,4 +1,4 @@
-package com.loaders.items.advanced;
+package com.loaders.items;
 
 import net.minecraft.entity.AreaEffectCloudEntity;
 import net.minecraft.entity.effect.StatusEffectInstance;
@@ -22,24 +22,23 @@ public class WitheringSword extends SwordItem {
     public TypedActionResult<ItemStack> use(World world, PlayerEntity user, Hand hand) {
         if (world instanceof ServerWorld server) {
             for (int i = 0; i <= 3; i++) {
-                AreaEffectCloudEntity flame = new AreaEffectCloudEntity(server, user.getX(), user.getY(), user.getZ());
-                flame.setOwner(user);
-                flame.setRadius(2.0F);
-                flame.setDuration(30);
-//                flame.addEffect(new StatusEffectInstance(StatusEffects.GLOWING, 2000));
-                flame.addEffect(new StatusEffectInstance(StatusEffects.INSTANT_DAMAGE, 200,3));
-                flame.setWaitTime(0);
-                flame.setParticleType(ParticleTypes.CRIT);
-                
+                AreaEffectCloudEntity areaEffectCloudEntity = new AreaEffectCloudEntity(server, user.getX(), user.getY(), user.getZ());
+                areaEffectCloudEntity.setParticleType(ParticleTypes.CRIT);
+                areaEffectCloudEntity.setRadius(2.0F);
+                areaEffectCloudEntity.setWaitTime(0);
+                areaEffectCloudEntity.setDuration(60);
+                areaEffectCloudEntity.setRadiusGrowth(0.03f);
+                areaEffectCloudEntity.addEffect(new StatusEffectInstance(StatusEffects.INSTANT_DAMAGE, 1, 1));
+
                 double theta = Math.toRadians(-user.getYaw());
                 double offsetX = Math.sin(theta) * (i * 3 + 4);
                 double offsetZ = Math.cos(theta) * (i * 3 + 4);
 
                 double X = user.getX() + offsetX;
                 double Z = user.getZ() + offsetZ;
-                flame.setPos(X, user.getY(), Z);
+                areaEffectCloudEntity.setPos(X, user.getY() + 0.5f, Z);
 
-                server.spawnEntity(flame);
+                server.spawnEntity(areaEffectCloudEntity);
             }
         }
         return super.use(world, user, hand);

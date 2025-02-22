@@ -23,9 +23,9 @@ public class SpiritiumArmorMaterial implements ArmorMaterial {
 
     private static final Map<ArmorItem.Type, Integer> PROTECTION_VALUES = new EnumMap<>(Map.of(
             ArmorItem.Type.HELMET, 4,      // Незерит - 3
-            ArmorItem.Type.CHESTPLATE, 10, // Незерит - 8
-            ArmorItem.Type.LEGGINGS, 9,    // Незерит - 6
-            ArmorItem.Type.BOOTS, 5        // Незерит - 3
+            ArmorItem.Type.CHESTPLATE, 9, // Незерит - 8
+            ArmorItem.Type.LEGGINGS, 8,    // Незерит - 6
+            ArmorItem.Type.BOOTS, 4       // Незерит - 3
     ));
 
     @Override

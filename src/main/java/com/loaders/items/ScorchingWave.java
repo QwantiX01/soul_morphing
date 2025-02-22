@@ -1,4 +1,4 @@
-package com.loaders.items.advanced;
+package com.loaders.items;
 
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.mob.Monster;
@@ -28,8 +28,8 @@ public class ScorchingWave extends Item {
             server.spawnParticles(ParticleTypes.FLAME, user.getX(), user.getY(), user.getZ(), 2000, 1, 1, 1, 1);
             for (Entity entity : entities) {
                 if (entity instanceof ProjectileEntity || entity instanceof Monster) {
+                    entity.damage(server.getDamageSources().playerAttack(user), 7);
                     entity.setOnFireFor(10);
-                    entity.damage(server.getDamageSources().magic(), 7);
                 }
             }
         }

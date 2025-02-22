@@ -1,4 +1,4 @@
-package com.loaders.items.advanced;
+package com.loaders.items;
 
 import com.loaders.entities.HeavySinnersWaveEntity;
 import com.loaders.entities.LightSinnersWaveEntity;

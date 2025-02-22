@@ -65,6 +65,13 @@ public class ItemGroups {
             itemGroup.add(Items.CURVED_BONE);
             itemGroup.add(Items.VICIOUS_SKULL);
             itemGroup.add(Items.EBOBA);
+
+            //Runes
+            itemGroup.add(Items.SHADOW_RUNE);
+            itemGroup.add(Items.ELEMENTAL_RUNE);
+            itemGroup.add(Items.ANCIENT_RUNE);
+            itemGroup.add(Items.BEAST_RUNE);
+            itemGroup.add(Items.CELESTIAL_RUNE);
         });
     }
 }
