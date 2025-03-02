@@ -54,11 +54,11 @@ public class Items {
     public static final Item SINNERS_STAFF = register("sinners_staff", new SinnerStaff(new FabricItemSettings()));
 
     //Runes
-    public static final Item SHADOW_RUNE = register("shadow_rune");
-    public static final Item ELEMENTAL_RUNE = register("elemental_rune");
-    public static final Item BEAST_RUNE = register("beast_rune");
-    public static final Item CELESTIAL_RUNE = register("celestial_rune");
-    public static final Item ANCIENT_RUNE = register("ancient_rune");
+    public static final Item SHADOW_RUNE = register("shadow_rune", new Item(new FabricItemSettings().maxCount(250)));
+    public static final Item ELEMENTAL_RUNE = register("elemental_rune", new Item(new FabricItemSettings().maxCount(250)));
+    public static final Item BEAST_RUNE = register("beast_rune", new Item(new FabricItemSettings().maxCount(250)));
+    public static final Item CELESTIAL_RUNE = register("celestial_rune", new Item(new FabricItemSettings().maxCount(250)));
+    public static final Item ANCIENT_RUNE = register("ancient_rune", new Item(new FabricItemSettings().maxCount(250)));
 
 
 
